@@ -59,8 +59,8 @@ const Home = () => {
                 <Image
                   src={element.image}
                   alt={element.description}
-                  width="100"
-                  height="100"
+                  width={100}
+                  height={100}
                 />
                 <Typography sx={{ ml: "10vw" }}>{element.name}</Typography>
               </Box>
