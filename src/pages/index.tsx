@@ -22,8 +22,8 @@ const Home = () => {
         await axios
           .get("http://localhost:3000/api/example")
           .then((response) => {
-            for (var int in response.data) {
-              arrayData.push(response.data[int]);
+            for (let int in response.data) {
+              setArrayData((arrayData) => [...arrayData, response.data[int]]);
             }
 
             console.log(arrayData);
