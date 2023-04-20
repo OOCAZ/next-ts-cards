@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import "../styles/burger.css";
 import { ThemeProvider, createTheme } from "@mui/material";
 import type { AppProps } from "next/app";
 
